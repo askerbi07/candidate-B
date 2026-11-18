@@ -1,0 +1,7 @@
+# Самих зависимостей у программы нет: только стандартная библиотека
+# (csv, argparse, decimal, dataclasses, datetime, pathlib).
+# Таблицы рисует собственный render_table в services.py — tabulate не нужен.
+
+# Инструменты разработки и проверки:
+pytest>=8.0        # тесты: python -m pytest test_main.py
+mypy>=1.10         # строгая проверка типов: python -m mypy --strict *.py
